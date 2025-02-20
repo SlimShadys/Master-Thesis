@@ -1,0 +1,34 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Intra-Class \& Inter-Class Variations}}{2}{figure.caption.14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces YOLO Object Detection}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Convolution operation applied on a signal}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Padding algorithms}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A common CNN architecture}}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CNN feature extraction process}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A skip-connection strategy}}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ResNet architecture}}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces DeepSORT Tracker example}}{22}{figure.caption.22}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ResNet-IBN-50 Architecture with BNNeck}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces IBN (Instance Batch Normalization) Layer in detail}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Activation Maps for ResNet-IBN}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Training and Inference representation}}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A Triplet Loss illustration}}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Momentum Adaptive Loss Weighting (MALW) Scheme}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Object Detection and Tracking example}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Stationary Filtering}}{39}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Incomplete Bounding Box Filtering}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Color Filtering}}{43}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces An ID-Switch example}}{45}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Target Search Results}}{52}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Pipeline overview}}{53}{figure.caption.58}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Topology of an AICity 2022 validation scenario}}{60}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Learning Rate Schedulers}}{66}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Color Classification Model Accuracy - Spectrico}}{68}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Color Classification Model Accuracy - EfficientNet}}{69}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces MTMC Retrieval Results}}{71}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces MTMC Performance}}{79}{figure.caption.93}%
+\addvspace {10\p@ }

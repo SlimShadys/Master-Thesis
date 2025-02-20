@@ -1,0 +1,153 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{25}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:Methodology}{{3}{25}{Methodology}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Problem formulation}{25}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Feature extraction}{25}{subsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}MultiTrack Re-Identification}{26}{subsection.3.1.2}\protected@file@percent }
+\citation{IBN-Net}
+\citation{StrongBaselineForVehicleReID}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Pipeline}{27}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Network Architecture}{27}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Backbone}{27}{section*.23}\protected@file@percent }
+\newlabel{subsubsec:Backbone}{{3.2.1}{27}{Backbone}{section*.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces ResNet-IBN-50 Architecture with BNNeck}}{28}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:ResNetBNNeck}{{3.1}{28}{ResNet-IBN-50 Architecture with BNNeck}{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces IBN (Instance Batch Normalization) Layer in detail}}{28}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:IBNLayer}{{3.2}{28}{IBN (Instance Batch Normalization) Layer in detail}{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Activation Maps for ResNet-IBN}}{28}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:ActivationMaps}{{3.3}{28}{Activation Maps for ResNet-IBN}{figure.caption.25}{}}
+\citation{StrongBaselineBatchNorm}
+\citation{GeMPooling,FastReID}
+\citation{StrongBaselineBatchNorm}
+\citation{StrongBaselineBatchNorm}
+\@writefile{toc}{\contentsline {subsubsection}{Stride}{29}{section*.26}\protected@file@percent }
+\newlabel{subsubsec:Stride}{{3.2.1}{29}{Stride}{section*.26}{}}
+\@writefile{toc}{\contentsline {subsubsection}{GeM Pooling}{29}{section*.27}\protected@file@percent }
+\newlabel{subsubsec:GeMPooling}{{3.2.1}{29}{GeM Pooling}{section*.27}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Batch Normalization Neck (BNNeck)}{29}{subsection.3.2.2}\protected@file@percent }
+\newlabel{subsec:BNNeck}{{3.2.2}{29}{Batch Normalization Neck (BNNeck)}{subsection.3.2.2}{}}
+\citation{StrongBaselineBatchNorm}
+\citation{StrongBaselineBatchNorm}
+\citation{StrongBaselineBatchNorm}
+\citation{LabelSmoothing,LabelSmoothing2}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Training and Inference representation}}{31}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:Losses}{{3.4}{31}{Training and Inference representation}{figure.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Loss Functions}{31}{subsection.3.2.3}\protected@file@percent }
+\newlabel{subsec:LossFunctions}{{3.2.3}{31}{Loss Functions}{subsection.3.2.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{ID Loss}{31}{section*.29}\protected@file@percent }
+\citation{TripletLoss,TripletLossV2}
+\citation{SupConLoss}
+\@writefile{toc}{\contentsline {subsubsection}{Metric Losses}{32}{section*.30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces A Triplet Loss illustration}}{32}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:TripletLoss}{{3.5}{32}{A Triplet Loss illustration}{figure.caption.31}{}}
+\citation{StrongBaselineForVehicleReID}
+\@writefile{toc}{\contentsline {subsubsection}{Momentum Adaptive Loss Weight (MALW)}{33}{section*.32}\protected@file@percent }
+\citation{RPTMLoss}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Momentum Adaptive Loss Weighting (MALW) Scheme}}{34}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:MALW}{{3.6}{34}{Momentum Adaptive Loss Weighting (MALW) Scheme}{figure.caption.33}{}}
+\@writefile{toc}{\contentsline {subsubsection}{RPTM Loss}{34}{section*.34}\protected@file@percent }
+\citation{TripletLossV2,EfficientBaseline}
+\citation{TripletLossV2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Dataloaders, Schedulers and Augmentation}{35}{subsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Dataloader Sampling}{35}{section*.35}\protected@file@percent }
+\newlabel{subsubsec:DataloaderSampling}{{3.2.4}{35}{Dataloader Sampling}{section*.35}{}}
+\citation{BagOfTricks}
+\citation{BagOfTricks,RandomErasing}
+\@writefile{toc}{\contentsline {subsubsection}{Warmup and Learning Rate Scheduler}{36}{section*.36}\protected@file@percent }
+\newlabel{subsubsec:WarmupScheduler}{{3.2.4}{36}{Warmup and Learning Rate Scheduler}{section*.36}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Data Augmentation}{36}{section*.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Object Detection and Tracking}{36}{subsection.3.2.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Object Detection and Tracking example}}{38}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:ObjDetectionTracking}{{3.7}{38}{Object Detection and Tracking example}{figure.caption.38}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Filtering}{38}{subsection.3.2.6}\protected@file@percent }
+\newlabel{subsec:Filtering}{{3.2.6}{38}{Filtering}{subsection.3.2.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Stationary vehicle filtering}{38}{section*.39}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Stationary Filtering}}{39}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:StationaryFiltering}{{3.8}{39}{Stationary Filtering}{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Incomplete Bounding Box Filtering}{39}{section*.41}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{1. Minimum Size Check}{40}{section*.42}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{2. Boundary Check}{40}{section*.43}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{3. Central Region Check}{40}{section*.44}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Incomplete Bounding Box Filtering}}{41}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:IncompleteBBFiltering}{{3.9}{41}{Incomplete Bounding Box Filtering}{figure.caption.45}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Color Filtering}{41}{section*.46}\protected@file@percent }
+\newlabel{subsubsec:ColorFiltering}{{3.2.6}{41}{Color Filtering}{section*.46}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Color Filtering}}{43}{figure.caption.47}\protected@file@percent }
+\newlabel{fig:ColorFiltering}{{3.10}{43}{Color Filtering}{figure.caption.47}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Minimum frame detection}{43}{section*.48}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.7}Feature Extraction}{43}{subsection.3.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.8}Trajectory Creation}{43}{subsection.3.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.9}Unification}{45}{subsection.3.2.9}\protected@file@percent }
+\newlabel{subsec:Unification}{{3.2.9}{45}{Unification}{subsection.3.2.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces An ID-Switch example}}{45}{figure.caption.49}\protected@file@percent }
+\newlabel{fig:Unification}{{3.11}{45}{An ID-Switch example}{figure.caption.49}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Final Data Export and Storage}{47}{section*.50}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.10}MTMC and Final Clustering Stage}{48}{subsection.3.2.10}\protected@file@percent }
+\newlabel{subsec:MTMC}{{3.2.10}{48}{MTMC and Final Clustering Stage}{subsection.3.2.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Cross-Camera Analysis Setup}{48}{section*.51}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Tracklet Construction}{49}{section*.52}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Similarity Matrix Computation}{49}{section*.53}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Track Merging}{50}{section*.54}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{A Priority Queue for Track Merging}{50}{section*.55}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Final Prediction Output}{51}{section*.56}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.11}Target Mode}{51}{subsection.3.2.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Target Search Results}}{52}{figure.caption.57}\protected@file@percent }
+\newlabel{fig:TargetSearch}{{3.12}{52}{Target Search Results}{figure.caption.57}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces Pipeline overview}}{53}{figure.caption.58}\protected@file@percent }
+\newlabel{fig:PipelineOverview}{{3.13}{53}{Pipeline overview}{figure.caption.58}{}}
+\@setckpt{Cap_3}{
+\setcounter{page}{54}
+\setcounter{equation}{5}
+\setcounter{enumi}{3}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{2}
+\setcounter{subsection}{11}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{13}
+\setcounter{table}{0}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{parentequation}{0}
+\setcounter{subfigure}{0}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{lotdepth}{1}
+\setcounter{su@anzahl}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{section@level}{2}
+\setcounter{Item}{12}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{39}
+\setcounter{blindtext}{1}
+\setcounter{Blindtext}{5}
+\setcounter{blind@countparstart}{0}
+\setcounter{blindlist}{0}
+\setcounter{blindlistlevel}{0}
+\setcounter{blindlist@level}{0}
+\setcounter{blind@listcount}{0}
+\setcounter{blind@levelcount}{0}
+\setcounter{blind@randomcount}{0}
+\setcounter{blind@randommax}{0}
+\setcounter{blind@pangramcount}{0}
+\setcounter{blind@pangrammax}{0}
+\setcounter{float@type}{4}
+\setcounter{NAT@ctr}{0}
+\setcounter{DefaultLines}{2}
+\setcounter{DefaultDepth}{0}
+\setcounter{L@lines}{3}
+\setcounter{L@depth}{0}
+\setcounter{nlinenum}{0}
+\setcounter{r@tfl@t}{0}
+}

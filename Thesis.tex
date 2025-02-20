@@ -1,0 +1,175 @@
+% !TeX encoding = UTF-8
+% !TeX program = pdflatex
+% !TeX spellcheck = it_IT
+
+% \documentclass[a4paper, oneside]{sapthesis}
+\documentclass[a4paper, twoside]{sapthesis}
+
+%qui ci sono svariati pacchetti utili per far funzionare il programma
+\usepackage{microtype}
+% \usepackage[italian]{babel} % Per scrivere in italiano
+\usepackage[english]{babel}   % Per scrivere in inglese
+\usepackage[utf8]{inputenc}
+\usepackage{imakeidx}
+\usepackage{subfigure}
+\usepackage[acronym]{glossaries}
+\usepackage{graphicx}
+\captionsetup{labelsep=quad}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{ragged2e}
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\usepackage[linguistics]{forest} %per dare i diagrammi: https://texdoc.org/serve/forest/0
+
+\newcommand*{\belowrulesepcolor}[1]{% 
+  \noalign{% 
+  \kern-\belowrulesep \begingroup \color{#1}% 
+  \hrule height\belowrulesep \endgroup }%
+}
+\newcommand*{\aboverulesepcolor}[1]{% 
+  \noalign{%
+  \begingroup \color{#1}% 
+  \hrule height\aboverulesep \endgroup \kern-\aboverulesep }%
+}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{plainyr-rev} %la bibiografia ordinata in ordine di data dalla più recente
+\setcitestyle{super,open={(},close={)}}
+
+% ================ CUSTOM PACKAGES ================= %
+% Author: Gianmarco Scarano
+% 
+%
+\usepackage{lettrine}                       % Needed for insertion of fancy capital letter
+\usepackage{url}                            % For inserting URLs
+\usepackage{tabularx}                       % For tables
+\usepackage{booktabs}                       % For tables
+\usepackage{makecell}                       % For tables
+\usepackage{rotating}                       % For rotating tables
+\usepackage{multirow}                       % For merged rows in tables
+\usepackage{xcolor}                         % For colors
+\usepackage{afterpage}                      % For acknoledgements
+\usepackage[object=vectorian]{pgfornament}  % For acknoledgements figures
+\tikzset{
+  basic/.style  = {draw, text width=2cm, drop shadow, font=\sffamily, rectangle},   root/.style   = {basic, rounded corners=2pt, thin, align=center, fill=white!60},
+  level 2/.style = {basic, rounded corners=6pt, thin,align=center, fill=white!60, text width=8em},
+  level 3/.style = {basic, thin, align=left, fill=white!60, text width=6.5em}
+}
+\newcommand{\sectionlinetwo}[2]{
+  \nointerlineskip \vspace{.5\baselineskip}\hspace{\fill}
+    {\color{#1}
+        \resizebox{0.5\linewidth}{1ex}
+        {{
+        {\begin{tikzpicture}
+        \node (C) at (0,0) {};
+        \node (D) at (9,0) {};
+        \path (C) to [ornament=#2] (D);
+        \end{tikzpicture}}}}
+    }
+    \hspace{\fill}
+    \par\nointerlineskip \vspace{.5\baselineskip}
+}
+
+%% =============================================== %%
+
+\hypersetup{pdftitle={Vehicle Re-Identification through ResNet-based Feature Extraction and Spatio-Temporal constraints: A real-world application in an urban scenario}, pdfauthor={Gianmarco Scarano}}
+\title{Vehicle Re-Identification through ResNet-based \\Feature Extraction and Spatio-Temporal constraints: A real-world application in an urban scenario}
+\author{Gianmarco Scarano}
+\IDnumber{2047315}
+\courseorganizer{Faculty of Information Engineering, Informatics and Statistics}
+\course{Master's Degree in Artificial Intelligence and Robotics}
+\AcademicYear{2023/2024}
+\advisor{Prof. Irene Amerini}
+\customadvisorlabel{Advisor}
+\coadvisor{Ing. Giovanni Trovini}
+\customcoadvisorlabel{Co-Advisor}
+\authoremail{scarano.2047315@studenti.uniroma1.it}
+\copyyear{2025}
+\thesistype{Master Thesis}
+\examdate{29 January 2025}
+\examiner{Prof. Giorgio Grisetti} 
+\examiner{Prof. Irene Amerini} 
+\examiner{Prof. Ioannis Chatzigiannakis}  
+\examiner{Prof. Riccardo Lazzeretti}  
+\examiner{Prof. Francesco Leotta}
+\examiner{Prof. Andrea Marrella}  
+\examiner{Prof. Roberto Navigli} 
+\examiner{Prof. Angelo Spognardi}
+
+%In caso di titoli di section a 2 righe
+%\setlength{\headheight}{22.59052pt}
+%\addtolength{\topmargin}{-10.59052pt}
+
+\makeindex
+\makeglossaries
+\input{glossario}
+
+\includeonly{Cap_1,Cap_2,Cap_3,Cap_4,Cap_5}
+\newcommand{\Fig}[1]{[{\footnotesize \texttt{Fig.#1}}]}
+\newcommand{\citfig}[1]{\ap{\scriptsize\textrm{(\textit{F#1})}}}
+
+\begin{document}
+
+    \maketitle
+    \dedication{
+        you are what you love,\\
+        not what loves you.\\
+    }
+    
+    \clearpage
+    \frontmatter
+    \input{0_Acknoledgements}
+    
+    \clearpage
+    \frontmatter
+    \input{0.1_Abstract}
+    
+    \clearpage
+
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    
+    \phantomsection
+    \mainmatter
+    \include{Cap_1}
+    \clearpage
+    \include{Cap_2}
+    \clearpage
+    \include{Cap_3}
+    \clearpage
+    \include{Cap_4}
+    \clearpage
+    \include{Cap_5}
+
+    \backmatter
+    \clearpage
+
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\glossaryname}
+    \printglossary
+
+    %\newpage
+    %\phantomsection
+    %\addcontentsline{toc}{chapter}{\indexname}
+    %\printindex
+
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\bibname}
+    \bibliography{bibliography}
+
+    \clearpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Figure}
+
+\end{document}

@@ -1,0 +1,113 @@
+\babel@toc {english}{}\relax 
+\contentsline {paragraph}{}{i}{section*.1}%
+\contentsline {paragraph}{}{i}{section*.2}%
+\contentsline {paragraph}{}{i}{section*.3}%
+\contentsline {paragraph}{}{i}{section*.4}%
+\contentsline {paragraph}{}{i}{section*.5}%
+\contentsline {paragraph}{}{i}{section*.6}%
+\contentsline {paragraph}{}{i}{section*.7}%
+\contentsline {paragraph}{}{i}{section*.8}%
+\contentsline {paragraph}{}{i}{section*.9}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background \& Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Vehicle Re-Identification}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Multi-Target Single-Camera Tracking}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Multi-Target Multi-Camera Tracking}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Research Objectives}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Thesis Structure}{7}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Related Works}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}YOLO - You Only Look Once}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}YOLOv9}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}YOLOv10}{12}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}YOLOv11}{12}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Convolutional Neural Networks}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Convolution applied to signals}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Applying Convolutions to Neural Networks}{14}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}ResNet}{17}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}ResNeXt}{19}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Global and Local Features}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Limitations}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Appearance-based models}{20}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Single \& Multi-Camera Tracking}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Tracker}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Trajectory Clustering}{23}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Methodology}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Problem formulation}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Feature extraction}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}MultiTrack Re-Identification}{26}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Pipeline}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Network Architecture}{27}{subsection.3.2.1}%
+\contentsline {subsubsection}{Backbone}{27}{section*.23}%
+\contentsline {subsubsection}{Stride}{29}{section*.26}%
+\contentsline {subsubsection}{GeM Pooling}{29}{section*.27}%
+\contentsline {subsection}{\numberline {3.2.2}Batch Normalization Neck (BNNeck)}{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Loss Functions}{31}{subsection.3.2.3}%
+\contentsline {subsubsection}{ID Loss}{31}{section*.29}%
+\contentsline {subsubsection}{Metric Losses}{32}{section*.30}%
+\contentsline {subsubsection}{Momentum Adaptive Loss Weight (MALW)}{33}{section*.32}%
+\contentsline {subsubsection}{RPTM Loss}{34}{section*.34}%
+\contentsline {subsection}{\numberline {3.2.4}Dataloaders, Schedulers and Augmentation}{35}{subsection.3.2.4}%
+\contentsline {subsubsection}{Dataloader Sampling}{35}{section*.35}%
+\contentsline {subsubsection}{Warmup and Learning Rate Scheduler}{36}{section*.36}%
+\contentsline {subsubsection}{Data Augmentation}{36}{section*.37}%
+\contentsline {subsection}{\numberline {3.2.5}Object Detection and Tracking}{36}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Filtering}{38}{subsection.3.2.6}%
+\contentsline {subsubsection}{Stationary vehicle filtering}{38}{section*.39}%
+\contentsline {subsubsection}{Incomplete Bounding Box Filtering}{39}{section*.41}%
+\contentsline {paragraph}{1. Minimum Size Check}{40}{section*.42}%
+\contentsline {paragraph}{2. Boundary Check}{40}{section*.43}%
+\contentsline {paragraph}{3. Central Region Check}{40}{section*.44}%
+\contentsline {subsubsection}{Color Filtering}{41}{section*.46}%
+\contentsline {subsubsection}{Minimum frame detection}{43}{section*.48}%
+\contentsline {subsection}{\numberline {3.2.7}Feature Extraction}{43}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Trajectory Creation}{43}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}Unification}{45}{subsection.3.2.9}%
+\contentsline {subsubsection}{Final Data Export and Storage}{47}{section*.50}%
+\contentsline {subsection}{\numberline {3.2.10}MTMC and Final Clustering Stage}{48}{subsection.3.2.10}%
+\contentsline {subsubsection}{Cross-Camera Analysis Setup}{48}{section*.51}%
+\contentsline {subsubsection}{Tracklet Construction}{49}{section*.52}%
+\contentsline {subsubsection}{Similarity Matrix Computation}{49}{section*.53}%
+\contentsline {subsubsection}{Track Merging}{50}{section*.54}%
+\contentsline {subsubsection}{A Priority Queue for Track Merging}{50}{section*.55}%
+\contentsline {subsubsection}{Final Prediction Output}{51}{section*.56}%
+\contentsline {subsection}{\numberline {3.2.11}Target Mode}{51}{subsection.3.2.11}%
+\contentsline {chapter}{\numberline {4}Experiments}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Training \& MTMC Hyperparameters}{55}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Network setup}{55}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Loss}{55}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Dataloaders}{56}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Datasets}{56}{subsection.4.1.4}%
+\contentsline {subsubsection}{VeRi-776}{56}{section*.60}%
+\contentsline {subsubsection}{VehicleID}{57}{section*.61}%
+\contentsline {subsubsection}{VeRi-Wild}{57}{section*.62}%
+\contentsline {subsubsection}{VRU}{58}{section*.63}%
+\contentsline {subsubsection}{AICity}{59}{section*.64}%
+\contentsline {subsection}{\numberline {4.1.5}Synthetic and Unused Dataset}{60}{subsection.4.1.5}%
+\contentsline {subsubsection}{GTA V}{60}{section*.67}%
+\contentsline {subsubsection}{VRIC}{62}{section*.69}%
+\contentsline {subsection}{\numberline {4.1.6}Metrics}{62}{subsection.4.1.6}%
+\contentsline {subsubsection}{Feature Extraction}{62}{section*.70}%
+\contentsline {subsubsection}{CMC}{63}{section*.71}%
+\contentsline {subsubsection}{mAP}{63}{section*.72}%
+\contentsline {subsubsection}{MultiTrack Re-Identification}{64}{section*.73}%
+\contentsline {subsection}{\numberline {4.1.7}Optimizer \& Scheduler}{65}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}Data Augmentation}{66}{subsection.4.1.8}%
+\contentsline {subsection}{\numberline {4.1.9}MTMC hyperparameters}{67}{subsection.4.1.9}%
+\contentsline {section}{\numberline {4.2}Results}{67}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Color Classification}{67}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Re-ID Performance}{69}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}MTMC Performance}{70}{subsection.4.2.3}%
+\contentsline {subsubsection}{YOLO Architecture Comparison}{71}{section*.83}%
+\contentsline {subsubsection}{Effect of Linkage Methods}{71}{section*.84}%
+\contentsline {subsubsection}{Influence of Different Trackers}{73}{section*.85}%
+\contentsline {subsubsection}{Degradation of Performance with Model Pruning}{73}{section*.86}%
+\contentsline {subsubsection}{Impact of Enabling Filtering}{73}{section*.87}%
+\contentsline {section}{\numberline {4.3}Ablation Studies}{73}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Re-ID Ablation Studies}{73}{subsection.4.3.1}%
+\contentsline {subsubsection}{General Trends Across Configurations}{75}{section*.89}%
+\contentsline {subsubsection}{Dataset-Specific Performance}{75}{section*.90}%
+\contentsline {subsubsection}{Key Findings and Insights}{76}{section*.91}%
+\contentsline {subsection}{\numberline {4.3.2}MTMC Ablation Studies}{77}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Conclusions}{81}{chapter.5}%
+\contentsline {chapter}{Glossary}{83}{section*.94}%
+\contentsline {chapter}{Bibliography}{84}{section*.95}%

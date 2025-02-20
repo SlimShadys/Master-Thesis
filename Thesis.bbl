@@ -1,0 +1,341 @@
+\begin{thebibliography}{10}
+
+\bibitem{YOLO}
+Ultralytics.
+\newblock {ultralytics/yolo - YOLO SOTA Realtime Instance Segmentation}.
+\newblock \url{https://github.com/ultralytics/ultralytics}, 2024.
+
+\bibitem{MC-GTA}
+Mc-gta: A synthetic benchmark for multi-camera vehicle tracking.
+\newblock Zenodo, September 2023.
+
+\bibitem{RPTMLoss}
+Adhiraj Ghosh, Kuruparan Shanmugalingam, and Wen-Yan Lin.
+\newblock Relation preserving triplet mining for stabilising the triplet loss
+  in re-identification systems.
+\newblock In {\em Proceedings of the IEEE/CVF Winter Conference on Applications
+  of Computer Vision (WACV)}, pages 4840--4849, January 2023.
+
+\bibitem{MultiLevelProgressiveLearning}
+Zhijun He, Hongbo Zhao, Jianrong Wang, and Wenquan Feng.
+\newblock Multi-level progressive learning for unsupervised vehicle
+  re-identification.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 72(4):4357--4371,
+  2023.
+
+\bibitem{SelfSupervisedGeometricFeatures}
+Ming Li, Xinming Huang, and Ziming Zhang.
+\newblock Self-supervised geometric features discovery via interpretable
+  attentio for vehicle re-identification and beyond (complete version), 2023.
+
+\bibitem{MsKAT}
+Hongchao Li, Chenglong Li, Aihua Zheng, Jin Tang, and Bin Luo.
+\newblock Mskat: Multi-scale knowledge-aware transformer for vehicle
+  re-identification.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems},
+  23(10):19557--19568, 2022.
+
+\bibitem{AICityChallenge}
+Milind Naphade, Shuo Wang, David~C. Anastasiu, Zheng Tang, Ming-Ching Chang,
+  Yue Yao, Liang Zheng, Mohammed~Shaiqur Rahman, Archana Venkatachalapathy,
+  Anuj Sharma, Qi~Feng, Vitaly Ablavsky, Stan Sclaroff, Pranamesh Chakraborty,
+  Alice Li, Shangru Li, and Rama Chellappa.
+\newblock The 6th ai city challenge, 2022.
+
+\bibitem{Spectrico}
+Spectrico.
+\newblock Car color recognition.
+\newblock \url{http://spectrico.com/car-color-recognition.html}, 2022.
+
+\bibitem{VeRi-Wild_2}
+Yan Bai, Jun Liu, Yihang Lou, Ce~Wang, and Ling-Yu Duan.
+\newblock Disentangled feature learning network and a comprehensive benchmark
+  for vehicle re-identification.
+\newblock In {\em In IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 2021.
+
+\bibitem{StrongBaselineForVehicleReID}
+Su~V. Huynh, Nam~H. Nguyen, Ngoc~T. Nguyen, Vinh~TQ. Nguyen, Chau Huynh, and
+  Chuong Nguyen.
+\newblock A strong baseline for vehicle re-identification.
+\newblock {\em CoRR}, abs/2104.10850, 2021.
+
+\bibitem{AggregatingGlobalLocal}
+Xianming Lin, Run Li, Xiawu Zheng, Pai Peng, Yongjian Wu, Feiyue Huang, and
+  Rongrong Ji.
+\newblock Aggregating global and local visual representation for vehicle
+  re-identification.
+\newblock {\em IEEE Transactions on Multimedia}, 23:3968--3977, 2021.
+
+\bibitem{CityScaleMTMC}
+Chong Liu, Yuqi Zhang, Hao Luo, Jiasheng Tang, Weihua Chen, Xianzhe Xu, Fan
+  Wang, Hao Li, and Yi{-}Dong Shen.
+\newblock City-scale multi-camera vehicle tracking guided by crossroad zones.
+\newblock {\em CoRR}, abs/2105.06623, 2021.
+
+\bibitem{OcclusionAwareMTMCT}
+Andreas Specker, Daniel Stadler, Lucas Florin, and Jürgen Beyerer.
+\newblock An occlusion-aware multi-target multi-camera tracking system.
+\newblock In {\em 2021 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition Workshops (CVPRW)}, pages 4168--4177, 2021.
+
+\bibitem{FastReID}
+Lingxiao He, Xingyu Liao, Wu~Liu, Xinchen Liu, Peng Cheng, and Tao Mei.
+\newblock Fastreid: {A} pytorch toolbox for general instance re-identification.
+\newblock {\em CoRR}, abs/2006.02631, 2020.
+
+\bibitem{SupConLoss}
+Prannay Khosla, Piotr Teterwak, Chen Wang, Aaron Sarna, Yonglong Tian, Phillip
+  Isola, Aaron Maschinot, Ce~Liu, and Dilip Krishnan.
+\newblock Supervised contrastive learning.
+\newblock {\em CoRR}, abs/2004.11362, 2020.
+
+\bibitem{ELECTRICITY}
+Yijun Qian, Lijun Yu, Wenhe Liu, and Alexander~G. Hauptmann.
+\newblock Electricity: An efficient multi-camera vehicle tracking system for
+  intelligent city.
+\newblock In {\em 2020 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition Workshops (CVPRW)}, pages 2511--2519, 2020.
+
+\bibitem{Glamor}
+Abhijit Suprem and Calton Pu.
+\newblock Looking glamorous: Vehicle re-id in heterogeneous cameras networks
+  with global and local attention.
+\newblock {\em CoRR}, abs/2002.02256, 2020.
+
+\bibitem{FairMOT}
+Yifu Zhang, Chunyu Wang, Xinggang Wang, Wenjun Zeng, and Wenyu Liu.
+\newblock A simple baseline for multi-object tracking.
+\newblock {\em CoRR}, abs/2004.01888, 2020.
+
+\bibitem{VehicleReID_3}
+Hao Chen, Benoit Lagadec, and Francois Bremond.
+\newblock Partition and reunion: A two-branch neural network for vehicle
+  re-identification.
+\newblock {\em CVPRW}, June 2019.
+
+\bibitem{MTMCTrajectoryBased1}
+Hung-Min Hsu, Tsung-Wei Huang, Gaoang Wang, Jiarui Cai, Zhichao Lei, and
+  Jenq-Neng Hwang.
+\newblock Multi-camera tracking of vehicles based on deep features re-id and
+  trajectory-based camera link models.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR) Workshops}, June 2019.
+
+\bibitem{He2019MultiCameraVT}
+Zhiqun He, Yu~Lei, Shuai Bai, and Wei Wu.
+\newblock Multi-camera vehicle tracking with powerful visual features and
+  spatial-temporal cue.
+\newblock In {\em CVPR Workshops}, 2019.
+
+\bibitem{EfficientBaseline}
+Ratnesh Kumar, Edwin Weill, Farzin Aghdasi, and Parthasarathy Sriram.
+\newblock Vehicle re-identification: an efficient baseline using triplet
+  embedding.
+\newblock {\em CoRR}, abs/1901.01015, 2019.
+
+\bibitem{VeRi-Wild_1}
+Yihang Lou, Yan Bai, Jun Liu, Shiqi Wang, and Ling-Yu Duan.
+\newblock Veri-wild: A large dataset and a new method for vehicle
+  re-identification in the wild.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3235--3243, 2019.
+
+\bibitem{BagOfTricks}
+Hao Luo, Youzhi Gu, Xingyu Liao, Shenqi Lai, and Wei Jiang.
+\newblock Bag of tricks and {A} strong baseline for deep person
+  re-identification.
+\newblock {\em CoRR}, abs/1903.07071, 2019.
+
+\bibitem{StrongBaselineBatchNorm}
+Hao Luo, Wei Jiang, Youzhi Gu, Fuxu Liu, Xingyu Liao, Shenqi Lai, and Jianyang
+  Gu.
+\newblock A strong baseline and batch normalization neck for deep person
+  re-identification.
+\newblock {\em CoRR}, abs/1906.08332, 2019.
+
+\bibitem{LabelSmoothing2}
+Rafael M{\"{u}}ller, Simon Kornblith, and Geoffrey~E. Hinton.
+\newblock When does label smoothing help?
+\newblock {\em CoRR}, abs/1906.02629, 2019.
+
+\bibitem{pahel2019VehicleRA}
+Jakub Panhel, Vojtech Bartl, Roman Juranek, and Adam Herout.
+\newblock Vehicle re-identifiation and multi-camera tracking in challenging
+  city-scale environment.
+\newblock In {\em CVPR Workshops}, 2019.
+
+\bibitem{VehicleReID_2}
+Jingjing Qian, Wei Jiang, Hao Luo, and Hongyan Yu.
+\newblock Stripe-based and attribute-aware network: {A} two-branch deep model
+  for vehicle re-identification.
+\newblock {\em CoRR}, abs/1910.05549, 2019.
+
+\bibitem{CityFlow}
+Zheng Tang, Milind Naphade, Ming{-}Yu Liu, Xiaodong Yang, Stan Birchfield, Shuo
+  Wang, Ratnesh Kumar, David~C. Anastasiu, and Jenq{-}Neng Hwang.
+\newblock Cityflow: {A} city-scale benchmark for multi-target multi-camera
+  vehicle tracking and re-identification.
+\newblock {\em CoRR}, abs/1903.09254, 2019.
+
+\bibitem{RealTimeMultiObjectTracking}
+Zhongdao Wang, Liang Zheng, Yixuan Liu, and Shengjin Wang.
+\newblock Towards real-time multi-object tracking.
+\newblock {\em CoRR}, abs/1909.12605, 2019.
+
+\bibitem{LearningCoarseStructuredFeature}
+Haiyun Guo, Chaoyang Zhao, Zhiwei Liu, Jinqiao Wang, and Hanqing Lu.
+\newblock Learning coarse-to-fine structured feature embedding for vehicle
+  re-identification.
+\newblock In {\em AAAI Conference on Artificial Intelligence}, 2018.
+
+\bibitem{MultiAttributeSpatialTemporal}
+Na~Jiang, Yue Xu, Zhong Zhou, and Wei Wu.
+\newblock Multi-attribute driven vehicle re-identification with
+  spatial-temporal re-ranking.
+\newblock In {\em 2018 25th IEEE International Conference on Image Processing
+  (ICIP)}, pages 858--862, 2018.
+
+\bibitem{VRIC2}
+Ayta{\c{c}} Kanaci, Xiatian Zhu, and Shaogang Gong.
+\newblock Vehicle re-identification in context.
+\newblock {\em CoRR}, abs/1809.09409, 2018.
+
+\bibitem{Veri776_3}
+Xinchen Liu, Wu~Liu, Tao Mei, and Huadong Ma.
+\newblock Provid: Progressive and multimodal vehicle reidentification for
+  large-scale urban surveillance.
+\newblock {\em IEEE Transactions on Multimedia}, 20:645--658, 2018.
+
+\bibitem{IBN-Net}
+Xingang Pan, Ping Luo, Jianping Shi, and Xiaoou Tang.
+\newblock Two at once: Enhancing learning and generalization capacities via
+  ibn-net.
+\newblock {\em CoRR}, abs/1807.09441, 2018.
+
+\bibitem{DeepHiddenMultiViewInference}
+Yi~Zhou, Li~Liu, and Ling Shao.
+\newblock Vehicle re-identification by deep hidden multi-view inference.
+\newblock {\em IEEE Transactions on Image Processing}, 27(7):3275--3287, 2018.
+
+\bibitem{VehicleReID_1}
+Jianqing Zhu, Huanqiang Zeng, Jingchang Huang, Shengcai Liao, Zhen Lei, Canhui
+  Cai, and Lixin Zheng.
+\newblock Vehicle re-identification using quadruple directional deep learning
+  features.
+\newblock {\em CoRR}, abs/1811.05163, 2018.
+
+\bibitem{TripletLossV2}
+Alexander Hermans, Lucas Beyer, and Bastian Leibe.
+\newblock In defense of the triplet loss for person re-identification.
+\newblock {\em CoRR}, abs/1703.07737, 2017.
+
+\bibitem{GeMPooling}
+Filip Radenovic, Giorgos Tolias, and Ondrej Chum.
+\newblock Fine-tuning {CNN} image retrieval with no human annotation.
+\newblock {\em CoRR}, abs/1711.02512, 2017.
+
+\bibitem{LicensePlate_2}
+Zied Selmi, Mohamed Ben~Halima, and Adel~M. Alimi.
+\newblock Deep learning system for automatic license plate detection and
+  recognition.
+\newblock In {\em 2017 14th IAPR International Conference on Document Analysis
+  and Recognition (ICDAR)}, volume~01, pages 1132--1138, 2017.
+
+\bibitem{DeepSORT}
+Nicolai Wojke, Alex Bewley, and Dietrich Paulus.
+\newblock Simple online and realtime tracking with a deep association metric.
+\newblock {\em CoRR}, abs/1703.07402, 2017.
+
+\bibitem{RandomErasing}
+Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi~Yang.
+\newblock Random erasing data augmentation.
+\newblock {\em CoRR}, abs/1708.04896, 2017.
+
+\bibitem{SORT}
+Alex Bewley, ZongYuan Ge, Lionel Ott, Fabio Ramos, and Ben Upcroft.
+\newblock Simple online and realtime tracking.
+\newblock {\em CoRR}, abs/1602.00763, 2016.
+
+\bibitem{LicensePlate_1}
+Vishal Jain, Zitha Sasindran, Anoop Rajagopal, Soma Biswas, Harish~S Bharadwaj,
+  and K~R Ramakrishnan.
+\newblock Deep automatic license plate recognition system.
+\newblock In {\em Proceedings of the Tenth Indian Conference on Computer
+  Vision, Graphics and Image Processing}, ICVGIP '16, New York, NY, USA, 2016.
+  Association for Computing Machinery.
+
+\bibitem{VehicleID}
+Hongye Liu, Yonghong Tian, Yaowei Wang, Lu~Pang, and Tiejun Huang.
+\newblock Deep relative distance learning: Tell the difference between similar
+  vehicles.
+\newblock In {\em 2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 2167--2175, 2016.
+
+\bibitem{Veri776_1}
+Xinchen Liu, Wu~Liu, Huadong Ma, and Huiyuan Fu.
+\newblock Large-scale vehicle re-identification in urban surveillance videos.
+\newblock In {\em 2016 IEEE International Conference on Multimedia and Expo
+  (ICME)}, pages 1--6, 2016.
+
+\bibitem{Veri776_2}
+Xinchen Liu, Wu~Liu, Tao Mei, and Huadong Ma.
+\newblock A deep learning-based approach to progressive vehicle
+  re-identification for urban surveillance.
+\newblock In {\em European Conference on Computer Vision}, 2016.
+
+\bibitem{MTMC-Metrics}
+Ergys Ristani, Francesco Solera, Roger~S. Zou, Rita Cucchiara, and Carlo
+  Tomasi.
+\newblock Performance measures and a data set for multi-target, multi-camera
+  tracking.
+\newblock {\em CoRR}, abs/1609.01775, 2016.
+
+\bibitem{ResNeXt}
+Saining Xie, Ross~B. Girshick, Piotr Doll{\'{a}}r, Zhuowen Tu, and Kaiming He.
+\newblock Aggregated residual transformations for deep neural networks.
+\newblock {\em CoRR}, abs/1611.05431, 2016.
+
+\bibitem{ResNet}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
+
+\bibitem{TripletLoss}
+Florian Schroff, Dmitry Kalenichenko, and James Philbin.
+\newblock Facenet: {A} unified embedding for face recognition and clustering.
+\newblock {\em CoRR}, abs/1503.03832, 2015.
+
+\bibitem{LabelSmoothing}
+Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and
+  Zbigniew Wojna.
+\newblock Rethinking the inception architecture for computer vision.
+\newblock {\em CoRR}, abs/1512.00567, 2015.
+
+\bibitem{DETRAC}
+Longyin Wen, Dawei Du, Zhaowei Cai, Zhen Lei, Ming{-}Ching Chang, Honggang Qi,
+  Jongwoo Lim, Ming{-}Hsuan Yang, and Siwei Lyu.
+\newblock {DETRAC:} {A} new benchmark and protocol for multi-object tracking.
+\newblock {\em CoRR}, abs/1511.04136, 2015.
+
+\bibitem{VRIC}
+Longyin Wen, Dawei Du, Zhaowei Cai, Zhen Lei, Ming{-}Ching Chang, Honggang Qi,
+  Jongwoo Lim, Ming{-}Hsuan Yang, and Siwei Lyu.
+\newblock {UA-DETRAC:} {A} new benchmark and protocol for multi-object
+  detection and tracking.
+\newblock {\em arXiv CoRR}, abs/1511.04136, 2015.
+
+\bibitem{CompCars}
+Linjie Yang, Ping Luo, Chen~Change Loy, and Xiaoou Tang.
+\newblock A large-scale car dataset for fine-grained categorization and
+  verification.
+\newblock {\em CoRR}, abs/1506.08959, 2015.
+
+\bibitem{PersonReID}
+Douglas Gray, Shane Brennan, and Hai Tao.
+\newblock Evaluating appearance models for recognition, reacquisition, and
+  tracking.
+\newblock {\em Proc. IEEE Int. Workshop Vis. Surveill. Perform. Eval. Tracking
+  Surveill., Oct.}, 01 2007.
+
+\end{thebibliography}
